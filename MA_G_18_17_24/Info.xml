@@ -1,18 +1,10 @@
 <?xml version="1.0"?>
 <record>
 	<record_link type="neobject" value="4uk52idgb0a3xlnf"/>
-	<record_link type="image" value="4uk52idgb0a3xlnf_01">
-		<field id="48" value="-1,0,0"/>
-	</record_link>
-	<record_link type="image" value="4uk52idgb0a3xlnf_02">
-		<field id="48" value="0,1,0"/>
-	</record_link>
-	<record_link type="image" value="4uk52idgb0a3xlnf_03">
-		<field id="48" value="0,-1,0"/>
-	</record_link>
-	<record_link type="image" value="4uk52idgb0a3xlnf_04">
-		<field id="48" value="1,0,0"/>
-	</record_link>
+	<record_link type="image" value="ImageLeft.png"/>
+	<record_link type="image" value="ImageTop.png"/>
+	<record_link type="image" value="ImageBottom.png"/>
+	<record_link type="image" value="ImageRight.png"/>
 	<field id="27" value="3D digitization of the squeeze using bidirectional flatbed scanning.">
 		<source id="bbw7at22v3yya72h"/>
 		<editor id="d1a7a25fdaf20101"/>
