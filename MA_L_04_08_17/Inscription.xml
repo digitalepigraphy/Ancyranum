@@ -1,19 +1,9 @@
 <?xml version="1.0"?>
 <record>
-	<record_link type="heightmap" value="wg1kc14n7ijsocb0"></record_link>
-	<record_link type="neobject" value="0AMue2Dxpyd8AO7k"></record_link>
-	<field id="27" value="Paper cast of the Res Gestae Divi Augusti inscription from Monumentum Ancyranum.">
-		<source url="http://catalog.sharedshelf.artstor.org/assets/3307635/representation?bind=BgQGAOOCquOCpeOCpeOCp%7COCp%7COCpQ%3D%3D"></source>
-	</field>
-	<field id="7" value="Cornell University"></field>
-	<field id="44" value="Eric Rebillard; Ben Anderson"></field>
-	<field id="8" value="1907"></field>
-	<field id="14" value="Paper pulp">
-		<editor id="hsu27cbey26sybs8"></editor>
-	</field>
-	<field id="52" value="27">
-		<editor id="h7sbevt5d627351d"></editor>
-	</field>
-	<field id="26" value="Latin Column 4; Lines 8-17"></field>
-	<field id="47" value="MA_L_04_08_17"></field>
+	<field id="7" value="Ankara, Ankara Ili, İc Anadolu"></field>
+	<field id="5" value="Turkey"></field>
+	<field id="19" value="Latin"></field>
+	<field id="26" value="Fragment from the Res Gestae Inscription"></field>
+	<field id="27" value="Fragment from the Res Gestae Divi Augusti inscription at Monumentum Ancyranum."></field>
+	<field id="46" value="AEDEM.IVVENTATIS.AEDEM.MATRIS.MAGNAE.IN PALATIO.FECI. / CAPITOLIUM. ET.POMPEIVM.THEATRVM.VTRVMQVE.OPVS.IMPENSA.GRANDI.REFECI. / SINE.VILLA.INSCRIPTIONE.NOMINIS.MEI.RIVOS.AQVARVM.COMPLVRIBVS.LOCIS / VETVSTATE.LABENTES.REFECI.ET.AQVAM.QVAE.MARCIA.APPELATVR.DVPLICAVI. / PONTE.NOVO.IN RIVVM.EIVS.INMISSO.      FORVM.IVLIVM.ET.BASILICAM / QVAE.FVIT.INTER.AEDEM.CASTORIS.ET.AEDEM.SATVRI. COEPTA.PROFLIGATA / QVE.OPERA.A PATRE.MEO.PERFECI.ET.EANDEM.BASILICAM.CONSVTMPT[AM.]IN / CENDIO.AMPLIATO.EIVS.SOLO.SVB TITVLO.NOMINIS.FILIORVM.M[EORVM.I]N / COHAVI.  ET.SI.VIVVS.NON.PER.FECISSEM.PERFECI.AB.HEREDIB[VS.MEIS.IVSSI]. / D[VO.]ET.OCTAGINTA.TEMPLA.DEVM.IN.VRBE.CONSVL.S[EXTVM.EX.AVTORITATE.]"></field>
 </record>

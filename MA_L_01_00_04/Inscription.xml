@@ -1,19 +1,9 @@
 <?xml version="1.0"?>
 <record>
-	<record_link type="heightmap" value="3urarnbndc0hsgj0a"></record_link>
-	<record_link type="neobject" value="9L1n2KqkomnyoDbz"></record_link>
-	<field id="27" value="Paper cast of the Res Gestae Divi Augusti inscription from Monumentum Ancyranum.">
-		<source url="http://catalog.sharedshelf.artstor.org/assets/3307294/representation?bind=BgYBAeOCp%7COCp%7COCpeOCquOCpeOCpQ%3D%3D"></source>
-	</field>
-	<field id="7" value="Cornell University"></field>
-	<field id="44" value="Eric Rebillard; Ben Anderson"></field>
-	<field id="8" value="1907"></field>
-	<field id="14" value="Paper pulp">
-		<editor id="hsu27cbey26sybs8"></editor>
-	</field>
-	<field id="52" value="24">
-		<editor id="h7sbevt5d627351d"></editor>
-	</field>
-	<field id="26" value="Latin Column 1; Lines 0-4"></field>
-	<field id="47" value="MA_L_01_00_04"></field>
+	<field id="7" value="Ankara, Ankara Ili, İc Anadolu"></field>
+	<field id="5" value="Turkey"></field>
+	<field id="19" value="Latin"></field>
+	<field id="26" value="Fragment from the Res Gestae Inscription"></field>
+	<field id="27" value="Fragment from the Res Gestae Divi Augusti inscription at Monumentum Ancyranum."></field>
+	<field id="46" value="RERVM.GESTARVM.DIVI.AVG / SVBIECIT. ET.INPENSARVM.QVAS / IN DVABVS.AHENEIS.PILIS.QVAE.SV[N]T.RO / ANNOS.VNDEVIGINTI.NATVS.EXERCITVM.PRIVATO.CONSILIO.ET.PRIVATA.IMPENSA. / COMPARAVI.PER.QVEM REM.PVBLICAM.[A DO]MINATIONE.FACTIONIS OPPRESSAM / IN LIBERTATEM VINDICA[VI.    EO.NOMINE.SEN]ATVS.DECRETIS HONOR[IFIC]IS IN / ORDINEM.SVVM.M[E.ADLEGIT.C.PANSA.ET.C.HIRTI]O.CONSVLIBV[S.C]ON[SVLA]"></field>
 </record>

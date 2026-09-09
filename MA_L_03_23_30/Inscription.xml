@@ -1,19 +1,9 @@
 <?xml version="1.0"?>
 <record>
-	<record_link type="heightmap" value="izuvb6ms6hlklb9b"></record_link>
-	<record_link type="neobject" value="c4c0GxCCxAnAh22A"></record_link>
-	<field id="27" value="Paper cast of the Res Gestae Divi Augusti inscription from Monumentum Ancyranum.">
-		<source url="http://catalog.sharedshelf.artstor.org/assets/3307624/representation?bind=BgQFAeOCpQAAAADjgqrjgqXjgqXjgqfjgqc%3D"></source>
-	</field>
-	<field id="7" value="Cornell University"></field>
-	<field id="44" value="Eric Rebillard; Ben Anderson"></field>
-	<field id="8" value="1907"></field>
-	<field id="14" value="Paper pulp">
-		<editor id="hsu27cbey26sybs8"></editor>
-	</field>
-	<field id="52" value="26">
-		<editor id="h7sbevt5d627351d"></editor>
-	</field>
-	<field id="26" value="Latin Column 3; Lines 23-30"></field>
-	<field id="47" value="MA_L_03_23_30"></field>
+	<field id="7" value="Ankara, Ankara Ili, İc Anadolu"></field>
+	<field id="5" value="Turkey"></field>
+	<field id="19" value="Latin"></field>
+	<field id="26" value="Fragment from the Res Gestae Inscription"></field>
+	<field id="27" value="Fragment from the Res Gestae Divi Augusti inscription at Monumentum Ancyranum."></field>
+	<field id="46" value="M.C[RASSO.E]T.CN.LENTVLO.AVGVRE.ADSIGNAVI.MILITIBVS.SOLVI.MUNICIPIS.EA / [S]V[MMA.SES]TERTIVM. CIRCITER.SEXIENS.MILLIENS.FVIT.QVAM[.PR]O.ITALICIS / PRAED[I]I[S].NVMERAVI.ET.CI[R]CITER.BIS.MILL[IE]NS.ET.SESCENTIENS.QVOD.PRO.AGRIS. / PROVIN[CI]ALIBVS.SOLVI.ID.PRIMUS.ET.[S]OLVS.OMNIUM.QVI.DEDUXERVNT. / COLONIAS MILITVM.IN.ITALIA.AVT.IN.PROVINCIS.AD.MEMOR[I]AM/AETATIS. / MEAE.FECI.ET POSTEA.TI.NERONE.ET.CN.PISONE.CONSVLIBVS.ITEM[Q]VE.C.ANTISTIO. / ET.D.LAELIO.COS.ET.C.CALIVISIO.ET.L.PASIENO.CONSVLIBVS.ET.L.L[ENTVLO.ET.]M.MESSALLA / CONSVLIBUS.ET.L.CANINIO.ET.Q.FABRICIO CO[S.M]IL[I]T[IBVS.]QVOS.EME"></field>
 </record>

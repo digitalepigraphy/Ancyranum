@@ -1,19 +1,9 @@
 <?xml version="1.0"?>
 <record>
-	<record_link type="heightmap" value="i3b75ellqx9xc2h3"></record_link>
-	<record_link type="neobject" value="BrzEvBkIxw2c3kPw"></record_link>
-	<field id="27" value="Paper cast of the Res Gestae Divi Augusti inscription from Monumentum Ancyranum.">
-		<source url="http://catalog.sharedshelf.artstor.org/assets/3307677/representation?bind=BgUEAuOCpeOCpeOCp%7COCp%7COCpeOCqgAA"></source>
-	</field>
-	<field id="7" value="Cornell University"></field>
-	<field id="44" value="Eric Rebillard; Ben Anderson"></field>
-	<field id="8" value="1907"></field>
-	<field id="14" value="Paper pulp">
-		<editor id="hsu27cbey26sybs8"></editor>
-	</field>
-	<field id="52" value="24">
-		<editor id="h7sbevt5d627351d"></editor>
-	</field>
-	<field id="26" value="Latin Column 1; Lines 29-38"></field>
-	<field id="47" value="MA_L_01_29_38"></field>
+	<field id="7" value="Ankara, Ankara Ili, İc Anadolu"></field>
+	<field id="5" value="Turkey"></field>
+	<field id="19" value="Latin"></field>
+	<field id="26" value="Fragment from the Res Gestae Inscription"></field>
+	<field id="27" value="Fragment from the Res Gestae Divi Augusti inscription at Monumentum Ancyranum."></field>
+	<field id="46" value="[FVER]AM.TER DECIENS.C[VM.SCRIBEB]A[M.]HAEC[.ET.ERAM.SE]P[TIMVM.ET.TRICENSIMVM] / [TRIBV]NICIAE.POTESTATIS / [DICTATVRA]M ET[.]ABS[N]T[I.ET.PRAESENTI.MIHI.DELATAM.ET.A POPVLO.ET.A.SENATV.] / [M.MARCE]LL[O.ET.]L.AR[RVNTIO.COS.NON.RECEPI.NON.SVM.DEPRECATVS.IN.SVMMA.] / [FRVMENTI.P]ENVRIA CVRATION[E]M.[.]ANN[ONAE.QVAM.ITA.ADMINISTRAVI.VT.INTRA.] / [DIES.PAVCO]S.METV ET PERICVL[O.]P[RAESENTI.CIVITA]T[E]M.UNIV[ERSAM.LIBERAREM.] / [IMPENSA.ET.CVRA.MEA].CONSV[LATVM.QVOQVE.TVM.]ANNVVM[.]E[T.PERPETVVM.] / [MIHI.DELATVM.NON.RECEPI.] / [CONSVLIBVS.M.VINICIO.ET.Q.LVCRETIO.]ET.POSTEA.P.LENTVLO.ET.CN[.]L[ENTVLO.ET.] / [TERTIVM.PAVLLO.FABIO.MAXIMO.ET.Q.TVBERONE.SENATV.POPVLOQVE.ROMANO]"></field>
 </record>

@@ -1,19 +1,9 @@
 <?xml version="1.0"?>
 <record>
-	<record_link type="heightmap" value="scmejgju33mamgo3"></record_link>
-	<record_link type="neobject" value="zpJODoOtDqHEmOFa"></record_link>
-	<field id="27" value="Paper cast of the Res Gestae Divi Augusti inscription from Monumentum Ancyranum.">
-		<source url="http://catalog.sharedshelf.artstor.org/assets/3307568/representation?bind=BgMFAOOCpeOCquOCpeOCpeOCp%7COCpwAAAAA%3D"></source>
-	</field>
-	<field id="7" value="Cornell University"></field>
-	<field id="44" value="Eric Rebillard; Ben Anderson"></field>
-	<field id="8" value="1907"></field>
-	<field id="14" value="Paper pulp">
-		<editor id="hsu27cbey26sybs8"></editor>
-	</field>
-	<field id="52" value="25">
-		<editor id="h7sbevt5d627351d"></editor>
-	</field>
-	<field id="26" value="Latin Column 2; Lines 29-37"></field>
-	<field id="47" value="MA_L_02_29_37"></field>
+	<field id="7" value="Ankara, Ankara Ili, İc Anadolu"></field>
+	<field id="5" value="Turkey"></field>
+	<field id="19" value="Latin"></field>
+	<field id="26" value="Fragment from the Res Gestae Inscription"></field>
+	<field id="27" value="Fragment from the Res Gestae Divi Augusti inscription at Monumentum Ancyranum."></field>
+	<field id="46" value="[ARAM.FORTVNAE.REDVCIS.ANTE.AE]DES.HONORIS.ET.VIRTVTIS.AD.PORTAM. / [CAPENAM.PRO.REDITV.MEO.SE]NATVS.CONSACRAVIT.IN QVA.PONTI. / [FICES.ET.VIRGINES.VESTALES.ANNI]VERSARIVM.SACRIFICIVM.FACERE. / [DECREVIT.EO.DIE.QVO.CONSVLIBVS.Q.LVC]RETIO.ET.[M.VINCIO].IN VRBEM.EX. / [SYRIA.REDIERAM.ET.DIEM.AVGVSTALIA.]EX[.]CO[GNOMINE.NOS]TRO APPELLAVIT / [SENATVS.CONSVLTO.EODEM.TEMPOR]E.PARS[.PRAETORVM.ET.TR]IBVNORVM. / [PLEBI.CVM.CONSVLE.Q.LVCRET]IO.ET PRINCI[P]IBVS[.VIRIS.OB]VIAM.MIHI. / MIS[S]A[.]E[ST.IN.CAMPANI]A[M.QVI.]HONOS.[AD H]O[C.TEMPVS.]NEMINI.PRAE / TER[.M]E.ES[T.DECRETVS.CVM.]EX [HISP]ANIA.GAL[LIAQVE.REBVS.IN EIS.]PROVINCIISPROSPE"></field>
 </record>

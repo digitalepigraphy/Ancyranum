@@ -1,19 +1,9 @@
 <?xml version="1.0"?>
 <record>
-	<record_link type="heightmap" value="yssg024b631c0kx7"></record_link>
-	<record_link type="neobject" value="4bkzAE4Juj01zg6m"></record_link>
-	<field id="27" value="Paper cast of the Res Gestae Divi Augusti inscription from Monumentum Ancyranum.">
-		<source url="http://catalog.sharedshelf.artstor.org/assets/3307425/representation?bind=BgECAeOCpeOCquOCpeOCpeOCp%7COCpw%3D%3D"></source>
-	</field>
-	<field id="7" value="Cornell University"></field>
-	<field id="44" value="Eric Rebillard; Ben Anderson"></field>
-	<field id="8" value="1907"></field>
-	<field id="14" value="Paper pulp">
-		<editor id="hsu27cbey26sybs8"></editor>
-	</field>
-	<field id="52" value="20">
-		<editor id="h7sbevt5d627351d"></editor>
-	</field>
-	<field id="26" value="Greek Column 11; Lines 16-24"></field>
-	<field id="47" value="MA_G_11_16_24"></field>
+	<field id="7" value="Ankara, Ankara Ili, İc Anadolu"></field>
+	<field id="5" value="Turkey"></field>
+	<field id="19" value="Greek"></field>
+	<field id="26" value="Fragment from the Res Gestae Inscription"></field>
+	<field id="27" value="Fragment from the Res Gestae Divi Augusti inscription at Monumentum Ancyranum."></field>
+	<field id="46" value="ΚΑΙΕΣΤΙΑΣΚΑΙΑ[ΡΕΩ]ΣΑΦΙΕΡΩΣΑΑΕΜΟΙΚΑΤ  ΕΣΤΗ / ΕΝΓΥΣΜΥΡΙΑΔΩΝ[ΔΙ]ΣΧΕ[Ι]ΛΙΩΝΠΕΝΤΑΚ[ΟΣΙΒΝ] / ΕΙΣΧΡΥΣΟΥΝΣΤΕΦΑΝΟΝΛΕΙΤΡΩΝΤΡΙΣ[ΜΥΡΙΩΝ] / ΠΕΝΤΑΧΚΙΣΧΕΙΛΙΩΝΚΑΤΑΦΕΡΟΥΣΑΙΣΤΑΙ[Σ]ΕΝΙΤΑΛΙ / ΑΙΠΟΛΕΙΤΕΙΑΙΣΚΑΙΑΠΟΙΚΙΑΙΣΣΥΝΕΧΩΡΗ[Σ]ΑΤΟΠΕ[Μ] / ΠΤΟΝΥΠΑΤΕΥΩΝΚΑΙΥΣΤΕΡΟΝΟΣΑΚΙΣΑΥΤΟΚΡΑΤΩΡ / ΠΡΟΣΗΓΟΡΕΥΘΗΝΤΑΣΕΙΣΤΟΝΣΤΕΦΑΝΟ[Ν]ΕΠΑΓΓΕ / ΛΙΑΣΟΥΚΕΛΑΒΟΝΨΗΦΙΖΟΜΕΝΩΝΤΩΝΠ[ΟΛΕΙΤΕ]ΙΩΝ / ΚΑΙΑΠΟΚΙΩΝΜΕΤΑΤΗΣΑΥΤΗΣΠΡΟΘ[ΥΜΙΑΣΩ]ΣΤΟ"></field>
 </record>

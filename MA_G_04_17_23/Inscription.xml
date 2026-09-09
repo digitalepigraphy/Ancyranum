@@ -1,19 +1,9 @@
 <?xml version="1.0"?>
 <record>
-	<record_link type="heightmap" value="wefvqgtmu7txqd0x"></record_link>
-	<record_link type="neobject" value="vMqfdkOvbP6n9vPb"></record_link>
-	<field id="27" value="Paper cast of the Res Gestae Divi Augusti inscription from Monumentum Ancyranum.">
-		<source url="http://catalog.sharedshelf.artstor.org/assets/3307342/representation?bind=BgABAeOCp%7COCp%7COCpeOCquOCpeOCpQ%3D%3D"></source>
-	</field>
-	<field id="7" value="Cornell University"></field>
-	<field id="44" value="Eric Rebillard; Ben Anderson"></field>
-	<field id="8" value="1907"></field>
-	<field id="14" value="Paper pulp">
-		<editor id="hsu27cbey26sybs8"></editor>
-	</field>
-	<field id="52" value="16">
-		<editor id="h7sbevt5d627351d"></editor>
-	</field>
-	<field id="26" value="Greek Column 4; Lines 17-23"></field>
-	<field id="47" value="MA_G_04_17_23"></field>
+	<field id="7" value="Ankara, Ankara Ili, İc Anadolu"></field>
+	<field id="5" value="Turkey"></field>
+	<field id="19" value="Greek"></field>
+	<field id="26" value="Fragment from the Res Gestae Inscription"></field>
+	<field id="27" value="Fragment from the Res Gestae Divi Augusti inscription at Monumentum Ancyranum."></field>
+	<field id="46" value="ΚΗΙΕΞ[ΟΥΣΙΑΙΜΟΝΟΣΓΑΙΩΙΚΗΝΣΩΡΕΙΝΩΙΚΑΙ] / ΓΑΙΩΙ[ΑΣΙΝΙΩΙΥΠΑΤΟΙΣΤΗΝΑΠΟΤΕΙΜΗΣΙΝΕΛΑΒΟΝ] / ΕΝΗΙΑΠ[ΟΤΕΙΜΗΣΕΙΕΤΕΙΜΗΣΑΝΤΟΠΟΛΕΙΤΩΝΡΩΜΑΙ] / ΩΝΤΕΤ[ΡΑΚΟΣΙΑΙΕΙΚΟΣΙΤΡΕΙΣΜΥΡΙΑΔΕΣΚΑΙΤ]ΡΙ[Σ] / ΧΙΛΙΟΙ[ΚΑΙΤΡΙΤΟΝΥΠΑΤΙΚΗΙΕΞΟΥΣΙΑΙΤΑΣΑΠΟΤΕΙΜΗ] / ΣΕΙΣΕΛΑ[ΒΟ]Ν[ΕΧΩ]Ν[ΣΥΝΑΡΧΟΝΤΑΤΙΒΕΡΙΟΝΝΕΡΩΝΑ] / ΚΑΙΣΑΡΑΤΟΝΥΙΟΝΜΟΥΣ[ΕΞΤΩΙΠΟΜΠΗΙΩΙΚΑΙ]"></field>
 </record>

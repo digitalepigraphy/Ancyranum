@@ -1,19 +1,9 @@
 <?xml version="1.0"?>
 <record>
-	<record_link type="heightmap" value="47pc8n9gn6gjmeeo"></record_link>
-	<record_link type="neobject" value="iscjK33FNfp4NALH"></record_link>
-	<field id="27" value="Paper cast of the Res Gestae Divi Augusti inscription from Monumentum Ancyranum.">
-		<source url="http://catalog.sharedshelf.artstor.org/assets/3307262/representation?bind=BgUEAeOCpeOCqgAA44Kl44Kl44Kn44Kn"></source>
-	</field>
-	<field id="7" value="Cornell University"></field>
-	<field id="44" value="Eric Rebillard; Ben Anderson"></field>
-	<field id="8" value="1907"></field>
-	<field id="14" value="Paper pulp">
-		<editor id="hsu27cbey26sybs8"></editor>
-	</field>
-	<field id="52" value="19">
-		<editor id="h7sbevt5d627351d"></editor>
-	</field>
-	<field id="26" value="Greek Column 9; Lines 14-16"></field>
-	<field id="47" value="MA_G_09_14_16"></field>
+	<field id="7" value="Ankara, Ankara Ili, İc Anadolu"></field>
+	<field id="5" value="Turkey"></field>
+	<field id="19" value="Greek"></field>
+	<field id="26" value="Fragment from the Res Gestae Inscription"></field>
+	<field id="27" value="Fragment from the Res Gestae Divi Augusti inscription at Monumentum Ancyranum."></field>
+	<field id="46" value="[Μ]ΥΡΙΑΔΑΣΚ[ΑΙ]Μ[Α]ΡΚΩΙ[ΛΕΠΙΔΩ]ΙΚΑΙΛΕΥΚΙΩΙΑΡΡΟΥΝ / [ΑΠΟΛΥΟΜΕ]ΝΟΙΣΣ[ΤΡΑΤΙ]ΩΤΑΙΣΔΙΔΩΝΤΑΙΟ[ΙΕΙΚ] / [ΕΜΗΙ]Γ[Ν]Ω[ΜΗΙ]ΚΑΤΕΣΤΗΙΝΑ[Ε]ΞΑΥΤΟΥΑΙΔΩΡΕΑΙ[ΤΟ]ΙΣ"></field>
 </record>
