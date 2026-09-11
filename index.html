@@ -432,24 +432,43 @@
     padding: 1.4rem 1.4rem 1.6rem;
   }
 
-  .viewer-cta{
+  .card__panel-actions{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .7rem;
+    margin: 0 0 1.4rem;
+  }
+
+  .viewer-cta, .github-cta{
     display: inline-flex;
     align-items: center;
     gap: .55rem;
-    background: var(--accent);
-    color: var(--accent-ink);
     font-family: var(--font-ui);
     font-weight: 600;
     font-size: .92rem;
     text-decoration: none;
     padding: .7rem 1.3rem;
     border-radius: 999px;
-    margin: 0 0 1.4rem;
+  }
+  .viewer-cta svg, .github-cta svg{ width: 16px; height: 16px; flex: none; }
+
+  .viewer-cta{
+    background: var(--accent);
+    color: var(--accent-ink);
   }
   .viewer-cta:hover, .viewer-cta:focus-visible{
     background: var(--accent-2);
   }
-  .viewer-cta svg{ width: 16px; height: 16px; flex: none; }
+
+  .github-cta{
+    background: transparent;
+    color: var(--ink-soft);
+    border: 1px solid var(--line-strong);
+  }
+  .github-cta:hover, .github-cta:focus-visible{
+    color: var(--ink);
+    border-color: var(--accent-2);
+  }
 
   .info-grid{
     display: grid;
@@ -915,6 +934,23 @@
     return a;
   }
 
+  function buildGithubLink(entry){
+    var githubUrl = "https://github.com/digitalepigraphy/" +
+      encodeURIComponent(state.folder) + "/tree/main/" + encodeURIComponent(entry.id);
+    var a = document.createElement("a");
+    a.className = "github-cta";
+    a.href = githubUrl;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    var svg = "<svg viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M12 2C6.48 2 2 6.58 2 12.19c0 4.49 2.87 8.3 6.84 9.64.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.46-1.2-1.11-1.52-1.11-1.52-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.89 1.57 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.64 1.03 2.76 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.2 10.2 0 0 0 22 12.19C22 6.58 17.52 2 12 2Z\"></path></svg>";
+    a.innerHTML = svg;
+    var label = document.createElement("span");
+    label.textContent = "Open in GitHub";
+    a.appendChild(label);
+    a.setAttribute("aria-label", "Open record " + entry.id + " on GitHub (opens in a new tab)");
+    return a;
+  }
+
   // Build the three-box detail panel: the record's own fields, then the Squeeze
   // (paper cast) fields led by its Title, then the Inscription fields led by its
   // Title, with the transcribed text formatted underneath. Every field is read
@@ -927,7 +963,11 @@
     var wrap = document.createElement("div");
     wrap.className = "card__panel-content";
 
-    wrap.appendChild(buildViewerLink(entry));
+    var actions = document.createElement("div");
+    actions.className = "card__panel-actions";
+    actions.appendChild(buildViewerLink(entry));
+    actions.appendChild(buildGithubLink(entry));
+    wrap.appendChild(actions);
 
     var infoGrid = document.createElement("div");
     infoGrid.className = "info-grid";
