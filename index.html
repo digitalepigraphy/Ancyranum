@@ -289,15 +289,43 @@
     border: 1px solid var(--line);
     border-radius: var(--radius-m);
     overflow: hidden;
-    text-decoration: none;
-    color: inherit;
     box-shadow: var(--shadow-groove);
-    transition: transform .15s ease, border-color .15s ease;
+    transition: border-color .15s ease;
   }
-  .card:hover, .card:focus-visible{
-    border-color: var(--accent-2);
-    transform: translateY(-2px);
+  .card.is-expanded{
+    grid-column: 1 / -1;
+    border-color: var(--accent);
   }
+
+  .card__toggle{
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    transition: transform .15s ease;
+  }
+  .card__toggle:hover{ transform: translateY(-2px); }
+  .card.is-expanded .card__toggle:hover{ transform: none; }
+  .card__toggle:focus-visible{
+    outline: 3px solid var(--focus);
+    outline-offset: -3px;
+  }
+  @media (min-width: 640px){
+    .card.is-expanded .card__toggle{
+      flex-direction: row;
+      align-items: stretch;
+    }
+    .card.is-expanded .card__media{
+      flex: 0 0 300px;
+      aspect-ratio: auto;
+      border-bottom: 0;
+      border-right: 1px solid var(--line);
+    }
+  }
+
   .card__media{
     aspect-ratio: 16 / 10;
     background:
@@ -306,6 +334,7 @@
     overflow: hidden;
     position: relative;
     border-bottom: 1px solid var(--line);
+    flex: none;
   }
   .card__media img{
     width: 100%;
@@ -331,6 +360,7 @@
     flex-direction: column;
     gap: .55rem;
     flex: 1;
+    min-width: 0;
   }
   .card__title{
     font-family: var(--font-display);
@@ -367,10 +397,140 @@
   .card__cta{
     margin-top: auto;
     padding-top: .5rem;
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
     font-family: var(--font-ui);
     font-size: .82rem;
     font-weight: 600;
     color: var(--accent-2);
+  }
+  .card__cta svg{
+    width: 14px;
+    height: 14px;
+    transition: transform .2s ease;
+    flex: none;
+  }
+  .card__toggle[aria-expanded="true"] .card__cta svg{ transform: rotate(180deg); }
+
+  /* ---------- expanded detail panel ---------- */
+  .card__panel{
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows .3s ease;
+    border-top: 1px solid transparent;
+  }
+  .card.is-expanded .card__panel{
+    grid-template-rows: 1fr;
+    border-top-color: var(--line);
+  }
+  .card__panel-inner{
+    overflow: hidden;
+    min-height: 0;
+  }
+  .card__panel-content{
+    padding: 1.4rem 1.4rem 1.6rem;
+  }
+
+  .viewer-cta{
+    display: inline-flex;
+    align-items: center;
+    gap: .55rem;
+    background: var(--accent);
+    color: var(--accent-ink);
+    font-family: var(--font-ui);
+    font-weight: 600;
+    font-size: .92rem;
+    text-decoration: none;
+    padding: .7rem 1.3rem;
+    border-radius: 999px;
+    margin: 0 0 1.4rem;
+  }
+  .viewer-cta:hover, .viewer-cta:focus-visible{
+    background: var(--accent-2);
+  }
+  .viewer-cta svg{ width: 16px; height: 16px; flex: none; }
+
+  .info-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.1rem;
+  }
+  @media (min-width: 560px){
+    .info-grid{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .info-box--wide{
+    grid-column: 1 / -1;
+  }
+  .info-box{
+    background: var(--surface-raised);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-s);
+    padding: 1rem 1.1rem 1.15rem;
+    box-shadow: var(--shadow-groove);
+    min-width: 0;
+  }
+  .info-box h4{
+    font-family: var(--font-ui);
+    font-size: .74rem;
+    letter-spacing: .03em;
+    color: var(--ink-faint);
+    margin: 0 0 .6rem;
+  }
+  .info-box .info-subtitle{
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--ink);
+    margin: 0 0 .7rem;
+    line-height: 1.3;
+  }
+  .info-box dl{
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: .4rem .7rem;
+    align-items: start;
+  }
+  .info-box dt{
+    font-family: var(--font-ui);
+    font-size: .72rem;
+    color: var(--ink-faint);
+    white-space: nowrap;
+  }
+  .info-box dd{
+    margin: 0;
+    font-family: var(--font-ui);
+    font-size: .82rem;
+    color: var(--ink-soft);
+    word-break: break-word;
+  }
+  .info-box dd ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+  }
+  .info-box dd a{
+    color: var(--accent-2);
+    text-decoration: underline;
+    word-break: break-all;
+  }
+  .transcription{
+    margin: .9rem 0 0;
+    padding-top: .9rem;
+    border-top: 1px solid var(--line);
+    font-family: var(--font-serif);
+    font-style: italic;
+    line-height: 1.85;
+    font-size: .92rem;
+    color: var(--ink);
+    white-space: pre-line;
+    overflow-wrap: anywhere;
   }
 
   .empty, .error{
@@ -426,7 +586,7 @@
 
   @media (prefers-reduced-motion: reduce){
     html{ scroll-behavior: auto; }
-    .card{ transition: none; }
+    .card, .card__toggle, .card__panel, .card__cta svg{ transition: none; }
   }
 </style>
 </head>
@@ -491,10 +651,14 @@
     data: null,
     baseUrl: "",
     folder: "",
+    editorsDict: {},
+    sourcesDict: {},
     records: [],       // [{id, record, searchText, language}]
     languages: [],
     activeLanguage: null,
-    query: ""
+    query: "",
+    expandedId: null,
+    cardRefs: {}        // id -> { article, toggleBtn, panel }
   };
 
   var els = {
@@ -567,6 +731,111 @@
     }
   }
 
+  function prefersReducedMotion(){
+    return window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  }
+
+  // Resolve a record/squeeze "Sources" array into displayable {text, url} entries,
+  // looking up shared citations from the top-level Sources dictionary on the fly.
+  function resolveSources(list){
+    if (!Array.isArray(list)) return [];
+    return list.map(function(entry){
+      if (!entry) return null;
+      if (entry.id && state.sourcesDict && state.sourcesDict[entry.id]) {
+        var s = state.sourcesDict[entry.id];
+        var bits = [s["Author(s)"], s.Title].filter(Boolean).join(", ");
+        var tail = [s.Publication, s.Volume ? ("vol. " + s.Volume) : null, s.Number ? ("no. " + s.Number) : null]
+          .filter(Boolean).join(", ");
+        var year = s.Year ? " (" + s.Year + ")" : "";
+        var pages = s.Pages ? ", pp. " + s.Pages : "";
+        var text = [bits, tail].filter(Boolean).join(" — ") + year + pages;
+        return { text: text || entry.id, url: null };
+      }
+      if (entry.url) return { text: entry.url, url: entry.url };
+      if (entry.id) return { text: entry.id, url: null };
+      return null;
+    }).filter(Boolean);
+  }
+
+  // Build a <dl> from an ordered list of {label, value} rows. `value` may be a
+  // plain string/number, or an array of {text, url} entries rendered as links.
+  function buildDL(rows){
+    var dl = document.createElement("dl");
+    var any = false;
+    rows.forEach(function(row){
+      if (row == null) return;
+      var value = row.value;
+      var isEmptyArray = Array.isArray(value) && value.length === 0;
+      if (value == null || value === "" || isEmptyArray) return;
+      any = true;
+
+      var dt = document.createElement("dt");
+      dt.textContent = row.label;
+      dl.appendChild(dt);
+
+      var dd = document.createElement("dd");
+      if (Array.isArray(value)) {
+        var ul = document.createElement("ul");
+        value.forEach(function(item){
+          var li = document.createElement("li");
+          if (item && typeof item === "object" && item.url) {
+            var a = document.createElement("a");
+            a.href = item.url;
+            a.target = "_blank";
+            a.rel = "noopener noreferrer";
+            a.textContent = item.text;
+            li.appendChild(a);
+          } else {
+            li.textContent = (item && item.text) || String(item);
+          }
+          ul.appendChild(li);
+        });
+        dd.appendChild(ul);
+      } else {
+        dd.textContent = String(value);
+      }
+      dl.appendChild(dd);
+    });
+    return any ? dl : null;
+  }
+
+  // Every remaining top-level field of an object, in JSON key order, skipping
+  // any keys already surfaced elsewhere (Title, Text, Editors, Sources, nested objects).
+  function genericRows(obj, skipKeys){
+    var skip = skipKeys || [];
+    return Object.keys(obj || {})
+      .filter(function(key){ return skip.indexOf(key) === -1; })
+      .filter(function(key){
+        var v = obj[key];
+        return typeof v === "string" || typeof v === "number";
+      })
+      .map(function(key){ return { label: key, value: obj[key] }; });
+  }
+
+  function buildInfoBox(heading, subtitle, rows, extraNode, wide){
+    var box = document.createElement("section");
+    box.className = "info-box" + (wide ? " info-box--wide" : "");
+    box.setAttribute("aria-label", subtitle ? heading + ": " + subtitle : heading);
+
+    var h4 = document.createElement("h4");
+    h4.textContent = heading;
+    box.appendChild(h4);
+
+    if (subtitle) {
+      var sub = document.createElement("p");
+      sub.className = "info-subtitle";
+      sub.textContent = subtitle;
+      box.appendChild(sub);
+    }
+
+    var dl = buildDL(rows);
+    if (dl) box.appendChild(dl);
+
+    if (extraNode) box.appendChild(extraNode);
+
+    return box;
+  }
+
   function buildSearchIndex(json){
     var editorsDict = json.Editors || {};
     var records = [];
@@ -625,8 +894,136 @@
     return terms.every(function(term){ return entry.searchText.indexOf(term) !== -1; });
   }
 
-  function escapeAttr(str){
-    return String(str == null ? "" : str);
+  function formatTranscription(text){
+    return String(text).split(/\s*\/\s*/).map(function(line){ return line.trim(); }).filter(Boolean).join("\n");
+  }
+
+  function buildViewerLink(entry){
+    var viewerUrl = "https://digitalepigraphy.github.io/viewer2.5/viewfull.html?heightmap=" +
+      encodeURIComponent(state.folder) + "/" + encodeURIComponent(entry.id);
+    var a = document.createElement("a");
+    a.className = "viewer-cta";
+    a.href = viewerUrl;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    var svg = "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M14 3h7v7\"></path><path d=\"M10 14L21 3\"></path><path d=\"M21 14v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h6\"></path></svg>";
+    a.innerHTML = svg;
+    var label = document.createElement("span");
+    label.textContent = "Open in 3D viewer";
+    a.appendChild(label);
+    a.setAttribute("aria-label", "Open record " + entry.id + " in the 3D viewer (opens in a new tab)");
+    return a;
+  }
+
+  // Build the three-box detail panel: the record's own fields, then the Squeeze
+  // (paper cast) fields led by its Title, then the Inscription fields led by its
+  // Title, with the transcribed text formatted underneath. Every field is read
+  // from the record object at render time, so unfamiliar/extra JSON keys still appear.
+  function buildPanelContent(entry){
+    var record = entry.record;
+    var squeeze = record.Squeeze || {};
+    var inscription = record.Inscription || {};
+
+    var wrap = document.createElement("div");
+    wrap.className = "card__panel-content";
+
+    wrap.appendChild(buildViewerLink(entry));
+
+    var infoGrid = document.createElement("div");
+    infoGrid.className = "info-grid";
+
+    var recordRows = genericRows(record, ["Squeeze", "Inscription", "Editors", "Sources"]);
+    recordRows.push({ label: "Editors", value: resolveEditors(record.Editors, state.editorsDict) });
+    recordRows.push({ label: "Sources", value: resolveSources(record.Sources) });
+    infoGrid.appendChild(buildInfoBox("Imaging", entry.id, recordRows));
+
+    var squeezeRows = genericRows(squeeze, ["Title", "Editors", "Sources"]);
+    squeezeRows.push({ label: "Editors", value: resolveEditors(squeeze.Editors, state.editorsDict) });
+    squeezeRows.push({ label: "Sources", value: resolveSources(squeeze.Sources) });
+    infoGrid.appendChild(buildInfoBox("Squeeze", squeeze.Title || null, squeezeRows));
+
+    var inscriptionRows = genericRows(inscription, ["Title", "Text", "Editors", "Sources"]);
+    if (Array.isArray(inscription.Editors)) {
+      inscriptionRows.push({ label: "Editors", value: resolveEditors(inscription.Editors, state.editorsDict) });
+    }
+    if (Array.isArray(inscription.Sources)) {
+      inscriptionRows.push({ label: "Sources", value: resolveSources(inscription.Sources) });
+    }
+    var transcriptionNode = null;
+    if (inscription.Text) {
+      transcriptionNode = document.createElement("p");
+      transcriptionNode.className = "transcription";
+      transcriptionNode.setAttribute("lang", inscription.Language === "Greek" ? "grc" : (inscription.Language === "Latin" ? "la" : ""));
+      transcriptionNode.textContent = formatTranscription(inscription.Text);
+    }
+    infoGrid.appendChild(buildInfoBox("Inscription", inscription.Title || null, inscriptionRows, transcriptionNode, true));
+
+    wrap.appendChild(infoGrid);
+    return wrap;
+  }
+
+  function setExpanded(id, expanded){
+    var refs = state.cardRefs[id];
+    if (!refs) return;
+    refs.article.classList.toggle("is-expanded", expanded);
+    refs.toggleBtn.setAttribute("aria-expanded", String(expanded));
+    if (typeof refs.panel.inert === "boolean") refs.panel.inert = !expanded;
+    if (expanded && !refs.panelBuilt) {
+      refs.panelInner.appendChild(buildPanelContent(refs.entry));
+      refs.panelBuilt = true;
+    }
+  }
+
+  // Calls back once the panel's height transition has finished (or immediately,
+  // with reduced motion / no transition support), so callers can measure/scroll
+  // against the settled layout rather than the mid-animation one.
+  function whenPanelSettles(panel, callback){
+    if (prefersReducedMotion() || !window.getComputedStyle) {
+      callback();
+      return;
+    }
+    var duration = parseFloat(window.getComputedStyle(panel).transitionDuration) || 0;
+    if (!duration) {
+      callback();
+      return;
+    }
+    var done = false;
+    function finish(){
+      if (done) return;
+      done = true;
+      panel.removeEventListener("transitionend", onEnd);
+      callback();
+    }
+    function onEnd(e){
+      if (e.target === panel && e.propertyName === "grid-template-rows") finish();
+    }
+    panel.addEventListener("transitionend", onEnd);
+    // Fallback in case transitionend doesn't fire (e.g. the property didn't
+    // actually change), so the scroll still happens.
+    setTimeout(finish, duration * 1000 + 80);
+  }
+
+  function toggleCard(id){
+    if (state.expandedId === id) {
+      setExpanded(id, false);
+      state.expandedId = null;
+      return;
+    }
+    var previous = state.expandedId;
+    state.expandedId = id;
+    if (previous) setExpanded(previous, false);
+    setExpanded(id, true);
+
+    var refs = state.cardRefs[id];
+    if (!refs) return;
+
+    // Both the collapsing card (if any) and the expanding card animate on the
+    // same duration, so waiting for the expanding one to settle covers both.
+    whenPanelSettles(refs.panel, function(){
+      if (refs.article.scrollIntoView) {
+        refs.article.scrollIntoView({ behavior: prefersReducedMotion() ? "auto" : "smooth", block: "nearest" });
+      }
+    });
   }
 
   function createCard(entry){
@@ -638,24 +1035,24 @@
     var location = inscription["Present location"] || squeeze["Present location"] || "";
     var language = inscription.Language || "";
     var text = inscription.Text || "";
-
-    var viewerUrl = "https://digitalepigraphy.github.io/viewer2.5/viewfull.html?heightmap=" +
-      encodeURIComponent(state.folder) + "/" + encodeURIComponent(entry.id);
     var imageUrl = state.baseUrl + entry.id + "/ImageLeft.png";
 
-    var card = document.createElement("a");
-    card.className = "card";
-    card.href = viewerUrl;
-    card.target = "_blank";
-    card.rel = "noopener noreferrer";
+    var article = document.createElement("article");
+    article.className = "card";
+
+    var panelId = "panel-" + entry.id;
+
+    var toggleBtn = document.createElement("button");
+    toggleBtn.type = "button";
+    toggleBtn.className = "card__toggle";
+    toggleBtn.setAttribute("aria-expanded", "false");
+    toggleBtn.setAttribute("aria-controls", panelId);
 
     var metaBits = [];
     if (language) metaBits.push(language);
     if (location) metaBits.push(location);
-    var ariaLabel = "Open record " + entry.id + ": " + title +
-      (metaBits.length ? ", " + metaBits.join(", ") : "") +
-      ". Opens the full 3D viewer in a new tab.";
-    card.setAttribute("aria-label", ariaLabel);
+    toggleBtn.setAttribute("aria-label", "Record " + entry.id + ": " + title +
+      (metaBits.length ? ", " + metaBits.join(", ") : "") + ". Show details.");
 
     var media = document.createElement("div");
     media.className = "card__media";
@@ -705,19 +1102,46 @@
 
     var cta = document.createElement("span");
     cta.className = "card__cta";
-    cta.textContent = "View full record";
     cta.setAttribute("aria-hidden", "true");
+    var ctaLabel = document.createElement("span");
+    ctaLabel.textContent = "Record details";
+    cta.appendChild(ctaLabel);
+    cta.insertAdjacentHTML("beforeend", '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"></path></svg>');
     body.appendChild(cta);
 
-    card.appendChild(media);
-    card.appendChild(body);
-    return card;
+    toggleBtn.appendChild(media);
+    toggleBtn.appendChild(body);
+
+    var panel = document.createElement("div");
+    panel.className = "card__panel";
+    panel.id = panelId;
+    if ("inert" in panel) panel.inert = true;
+
+    var panelInner = document.createElement("div");
+    panelInner.className = "card__panel-inner";
+    panel.appendChild(panelInner);
+
+    article.appendChild(toggleBtn);
+    article.appendChild(panel);
+
+    state.cardRefs[entry.id] = {
+      article: article,
+      toggleBtn: toggleBtn,
+      panel: panel,
+      panelInner: panelInner,
+      entry: entry,
+      panelBuilt: false
+    };
+
+    return article;
   }
 
   function render(){
     var query = state.query;
     var matches = state.records.filter(function(entry){ return matchesQuery(entry, query); });
 
+    state.expandedId = null;
+    state.cardRefs = {};
     els.grid.innerHTML = "";
 
     if (matches.length === 0) {
@@ -781,6 +1205,26 @@
     });
   }
 
+  function initGrid(){
+    els.grid.addEventListener("click", function(e){
+      var btn = e.target.closest && e.target.closest(".card__toggle");
+      if (!btn) return;
+      var article = btn.closest(".card");
+      if (!article) return;
+      var id = Object.keys(state.cardRefs).filter(function(key){
+        return state.cardRefs[key].article === article;
+      })[0];
+      if (id) toggleCard(id);
+    });
+    els.grid.addEventListener("keydown", function(e){
+      if (e.key !== "Escape" || !state.expandedId) return;
+      var id = state.expandedId;
+      toggleCard(id);
+      var refs = state.cardRefs[id];
+      if (refs && refs.toggleBtn) refs.toggleBtn.focus();
+    });
+  }
+
   function showError(message, detail){
     els.title.textContent = "Couldn’t load the collection";
     els.lede.textContent = message;
@@ -808,6 +1252,8 @@
     state.data = json;
     state.baseUrl = json.URL || "";
     state.folder = guessFolderName(state.baseUrl);
+    state.editorsDict = json.Editors || {};
+    state.sourcesDict = json.Sources || {};
 
     var index = buildSearchIndex(json);
     state.records = index.records;
@@ -821,10 +1267,11 @@
       els.metaDescription.setAttribute("content", "Search and browse " + collectionName + ", a digitized epigraphic squeeze collection of " + state.records.length + " records.");
     }
     els.footerCredit.textContent = collectionName + " · " + state.records.length +
-      " records · records open in the 3D viewer on click.";
+      " records · click a record for details, with a link through to the 3D viewer.";
 
     buildFilters();
     initSearch();
+    initGrid();
     render();
     els.input.focus({ preventScroll: true });
   }
