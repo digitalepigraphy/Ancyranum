@@ -342,6 +342,24 @@
     object-fit: cover;
     display: block;
   }
+  .card.is-expanded .card__media img{ cursor: zoom-in; }
+  .card__zoom-hint{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(20,17,12,0);
+    opacity: 0;
+    transition: opacity .15s ease, background-color .15s ease;
+    color: #f1ead9;
+    pointer-events: none;
+  }
+  .card__zoom-hint svg{ width: 26px; height: 26px; }
+  .card.is-expanded .card__media:hover .card__zoom-hint{
+    opacity: 1;
+    background: rgba(20,17,12,.35);
+  }
   .card__id{
     position: absolute;
     left: .6rem;
@@ -598,6 +616,70 @@
   }
   footer a{ color: var(--ink-soft); text-decoration: underline; }
 
+  body.lightbox-open{ overflow: hidden; }
+
+  /* ---------- image lightbox ---------- */
+  .lightbox{
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    background: rgba(10,8,5,.8);
+  }
+  .lightbox[hidden]{
+    display: none;
+  }
+  .lightbox__panel{
+    position: relative;
+    max-width: min(92vw, 1100px);
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lightbox__img{
+    display: block;
+    max-width: 100%;
+    max-height: 78vh;
+    border-radius: var(--radius-s);
+    background: var(--bg-alt);
+    box-shadow: 0 12px 40px rgba(0,0,0,.45);
+  }
+  .lightbox__caption{
+    margin: .9rem 0 0;
+    font-family: var(--font-ui);
+    font-size: .85rem;
+    color: #f1ead9;
+    text-align: center;
+  }
+  .lightbox__close{
+    all: unset;
+    box-sizing: border-box;
+    position: absolute;
+    top: -14px;
+    right: -14px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--surface-raised);
+    color: var(--ink);
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,.4);
+  }
+  .lightbox__close svg{ width: 18px; height: 18px; }
+  .lightbox__close:hover, .lightbox__close:focus-visible{
+    color: var(--accent-2);
+  }
+  @media (max-width: 480px){
+    .lightbox__close{ top: .5rem; right: .5rem; }
+  }
+
   @media (max-width: 480px){
     .theme-toggle span{ display: none; }
     .theme-toggle{ padding: .55rem; }
@@ -662,6 +744,16 @@
   <p id="footer-credit">Digitized squeeze collection · records open in the <span style="white-space:nowrap">3D viewer</span> on click.</p>
 </footer>
 
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-caption" hidden>
+  <div class="lightbox__panel">
+    <button type="button" class="lightbox__close" id="lightbox-close" aria-label="Close enlarged image">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+    </button>
+    <img class="lightbox__img" id="lightbox-img" src="" alt="">
+    <p class="lightbox__caption" id="lightbox-caption"></p>
+  </div>
+</div>
+
 <script>
 (function(){
   "use strict";
@@ -693,7 +785,11 @@
     themeToggle: document.getElementById("theme-toggle"),
     themeLabel: document.getElementById("theme-toggle-label"),
     footerCredit: document.getElementById("footer-credit"),
-    metaDescription: document.getElementById("meta-description")
+    metaDescription: document.getElementById("meta-description"),
+    lightbox: document.getElementById("lightbox"),
+    lightboxImg: document.getElementById("lightbox-img"),
+    lightboxCaption: document.getElementById("lightbox-caption"),
+    lightboxClose: document.getElementById("lightbox-close")
   };
 
   /* ---------------- theme ---------------- */
@@ -1108,6 +1204,12 @@
     idTag.textContent = entry.id;
     media.appendChild(idTag);
 
+    var zoomHint = document.createElement("span");
+    zoomHint.className = "card__zoom-hint";
+    zoomHint.setAttribute("aria-hidden", "true");
+    zoomHint.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M21 21l-4.3-4.3"></path><path d="M11 8v6M8 11h6"></path></svg>';
+    media.appendChild(zoomHint);
+
     var body = document.createElement("div");
     body.className = "card__body";
 
@@ -1170,6 +1272,8 @@
       panel: panel,
       panelInner: panelInner,
       entry: entry,
+      title: title,
+      mediaImg: img,
       panelBuilt: false
     };
 
@@ -1245,15 +1349,66 @@
     });
   }
 
+  function cardIdForArticle(article){
+    return Object.keys(state.cardRefs).filter(function(key){
+      return state.cardRefs[key].article === article;
+    })[0];
+  }
+
+  var lightboxLastFocused = null;
+
+  function openLightbox(refs){
+    if (!els.lightbox || !els.lightboxImg) return;
+    lightboxLastFocused = document.activeElement;
+    els.lightboxImg.src = refs.mediaImg.src;
+    els.lightboxImg.alt = refs.mediaImg.alt;
+    els.lightboxCaption.textContent = refs.entry.id + (refs.title ? " — " + refs.title : "");
+    els.lightbox.hidden = false;
+    document.body.classList.add("lightbox-open");
+    els.lightboxClose.focus({ preventScroll: true });
+  }
+
+  function closeLightbox(){
+    if (!els.lightbox || els.lightbox.hidden) return;
+    els.lightbox.hidden = true;
+    document.body.classList.remove("lightbox-open");
+    els.lightboxImg.src = "";
+    if (lightboxLastFocused && typeof lightboxLastFocused.focus === "function") {
+      lightboxLastFocused.focus({ preventScroll: true });
+    }
+    lightboxLastFocused = null;
+  }
+
+  function initLightbox(){
+    if (!els.lightbox) return;
+    els.lightboxClose.addEventListener("click", closeLightbox);
+    els.lightbox.addEventListener("click", function(e){
+      if (e.target === els.lightbox) closeLightbox();
+    });
+    window.addEventListener("keydown", function(e){
+      if (e.key === "Escape" && !els.lightbox.hidden) closeLightbox();
+    });
+  }
+
   function initGrid(){
     els.grid.addEventListener("click", function(e){
+      // Clicking the photo itself, only while the card is already expanded,
+      // opens the lightbox instead of collapsing the card. Everywhere else
+      // on the card keeps toggling expand/collapse exactly as before.
+      var img = e.target.closest && e.target.closest(".card__media img");
+      if (img) {
+        var mediaArticle = img.closest(".card");
+        if (mediaArticle && mediaArticle.classList.contains("is-expanded")) {
+          var mediaId = cardIdForArticle(mediaArticle);
+          if (mediaId) openLightbox(state.cardRefs[mediaId]);
+          return;
+        }
+      }
       var btn = e.target.closest && e.target.closest(".card__toggle");
       if (!btn) return;
       var article = btn.closest(".card");
       if (!article) return;
-      var id = Object.keys(state.cardRefs).filter(function(key){
-        return state.cardRefs[key].article === article;
-      })[0];
+      var id = cardIdForArticle(article);
       if (id) toggleCard(id);
     });
     els.grid.addEventListener("keydown", function(e){
@@ -1312,6 +1467,7 @@
     buildFilters();
     initSearch();
     initGrid();
+    initLightbox();
     render();
     els.input.focus({ preventScroll: true });
   }
