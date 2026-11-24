@@ -1,6 +1,7 @@
 {
   "Collection": "Ancyranum Res Gestae Squeeze Collection",
   "URL": "https://digitalepigraphy.github.io/Ancyranum/",
+  "CiteAs": "",
   "Records": {
     "MA_G_01_00_06": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -16,14 +17,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -53,10 +46,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307347/representation?bind=BgIFAeOCpwAAAADjgqfjgqXjgqrjgqXjgqU%3D"
+            "url": "https://www.jstor.org/stable/community.3307347"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_01_07_14": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -72,14 +73,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -109,10 +102,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307329/representation?bind=BgIGAOOCp%7COCpeOCquOCpeOCpeOCpw%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307329"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_01_15_23": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -128,14 +129,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -165,10 +158,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307492/representation?bind=BgYFAOOCpeOCp%7COCp%7COCpeOCquOCpQAAAAA%3D"
+            "url": "https://www.jstor.org/stable/community.3307492"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_02_00_06": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -184,14 +185,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -221,10 +214,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307532/representation?bind=BgQFAOOCquOCpeOCpeOCp%7COCp%7COCpQAAAAA%3D"
+            "url": "https://www.jstor.org/stable/community.3307532"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_02_07_15": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -240,14 +241,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -277,10 +270,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307529/representation?bind=BgMCAuOCp%7COCp%7COCpeOCquOCpeOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307529"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_02_16_23": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -296,14 +297,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -333,10 +326,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307535/representation?bind=BgYFAeOCpQAAAADjgqXjgqfjgqfjgqXjgqo%3D"
+            "url": "https://www.jstor.org/stable/community.3307535"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_03_00_06": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -352,14 +353,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -389,10 +382,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307555/representation?bind=BgUBBeOCquOCpeOCpeOCp%7COCp%7COCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307555"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_03_08_16": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -408,14 +409,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -445,10 +438,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307542/representation?bind=BgMDAeOCpeOCp%7COCp%7COCpeOCquOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307542"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_03_17_23": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -464,14 +465,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -501,10 +494,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307550/representation?bind=BgAEAOOCpeOCp%7COCp%7COCpeOCquOCpQAA"
+            "url": "https://www.jstor.org/stable/community.3307550"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_04_00_07": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -520,14 +521,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -557,10 +550,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307541/representation?bind=BgQCAOOCquOCpeOCpeOCp%7COCp%7COCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307541"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_04_07_15": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -576,14 +577,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -613,10 +606,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307496/representation?bind=BgAFAeOCpQAAAADjgqXjgqfjgqfjgqXjgqo%3D"
+            "url": "https://www.jstor.org/stable/community.3307496"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_04_17_23": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -632,14 +633,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -669,10 +662,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307342/representation?bind=BgABAeOCp%7COCp%7COCpeOCquOCpeOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307342"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_05_00_06": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -688,14 +689,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -725,10 +718,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307517/representation?bind=BgMGAeOCpeOCquOCpeOCpeOCp%7COCpw%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307517"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_05_07_15": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -744,14 +745,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -781,10 +774,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307513/representation?bind=BgAEAuOCpeOCp%7COCp%7COCpeOCquOCpQAA"
+            "url": "https://www.jstor.org/stable/community.3307513"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_05_15_22": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -800,14 +801,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -837,10 +830,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307506/representation?bind=BgABA%7COCpeOCquOCpeOCpeOCp%7COCpw%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307506"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_06_00_06": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -856,14 +857,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -893,10 +886,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307502/representation?bind=BgYCAuOCquOCpeOCpeOCp%7COCp%7COCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307502"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_06_07_15": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -912,14 +913,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -949,10 +942,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307302/representation?bind=BgABBuOCpeOCp%7COCp%7COCpeOCquOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307302"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_06_15_23": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -968,14 +969,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -1005,10 +998,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307518/representation?bind=BgAGAOOCpeOCp%7COCp%7COCpeOCquOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307518"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_07_00_06": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -1024,14 +1025,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -1061,10 +1054,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307523/representation?bind=BgEDAuOCp%7COCp%7COCpeOCquOCpeOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307523"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_07_07_15": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -1080,14 +1081,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -1117,10 +1110,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307389/representation?bind=BgYCAuOCquOCpeOCpeOCp%7COCp%7COCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307389"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_07_16_24": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -1136,14 +1137,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -1173,10 +1166,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307400/representation?bind=BgUGAOOCpeOCpeOCp%7COCp%7COCpeOCqg%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307400"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_08_00_06": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -1192,14 +1193,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -1229,10 +1222,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307395/representation?bind=BgEFAOOCp%7COCp%7COCpeOCquOCpeOCpQAAAAA%3D"
+            "url": "https://www.jstor.org/stable/community.3307395"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_08_07_15": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -1248,14 +1249,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -1285,10 +1278,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307403/representation?bind=BgEGAeOCp%7COCp%7COCpeOCquOCpeOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307403"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_08_16_24": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -1304,14 +1305,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -1341,10 +1334,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307386/representation?bind=BgADAeOCpeOCquOCpeOCpeOCp%7COCpw%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307386"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_09_00_06": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -1360,14 +1361,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -1397,10 +1390,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307378/representation?bind=BgMEAuOCpeOCquOCpeOCpeOCp%7COCpwAA"
+            "url": "https://www.jstor.org/stable/community.3307378"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_09_06_14": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -1416,14 +1417,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -1453,10 +1446,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307494/representation?bind=BgYFAOOCpeOCp%7COCp%7COCpeOCquOCpQAAAAA%3D"
+            "url": "https://www.jstor.org/stable/community.3307494"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_09_14_16": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -1472,14 +1473,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -1509,10 +1502,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307262/representation?bind=BgUEAeOCpeOCqgAA44Kl44Kl44Kn44Kn"
+            "url": "https://www.jstor.org/stable/community.3307262"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_09_16_24": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -1528,14 +1529,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -1565,10 +1558,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307662/representation?bind=BgYGAeOCpeOCp%7COCp%7COCpeOCquOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307662"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_10_00_07": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -1584,14 +1585,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -1621,10 +1614,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307376/representation?bind=BgYGAOOCpeOCp%7COCp%7COCpeOCquOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307376"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_10_07_15": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -1640,14 +1641,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -1677,10 +1670,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307417/representation?bind=BgYCA%7COCpeOCp%7COCp%7COCpeOCquOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307417"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_10_16_23": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -1696,14 +1697,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -1733,10 +1726,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307490/representation?bind=BgUCAOOCpeOCpeOCp%7COCp%7COCpeOCqg%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307490"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_11_00_06": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -1752,14 +1753,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -1789,10 +1782,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307366/representation?bind=BgQGAOOCquOCpeOCpeOCp%7COCp%7COCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307366"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_11_07_15": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -1808,14 +1809,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -1845,10 +1838,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307419/representation?bind=BgACAOOCpeOCp%7COCp%7COCpeOCquOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307419"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_11_16_24": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -1864,14 +1865,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -1901,10 +1894,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307425/representation?bind=BgECAeOCpeOCquOCpeOCpeOCp%7COCpw%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307425"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_12_00_07": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -1920,14 +1921,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -1957,10 +1950,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307464/representation?bind=BgYBBeOCpeOCpeOCp%7COCp%7COCpeOCqg%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307464"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_12_08_16": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -1976,14 +1977,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -2013,10 +2006,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307369/representation?bind=BgMCA%7COCpeOCquOCpeOCpeOCp%7COCpw%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307369"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_12_17_23": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -2032,14 +2033,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -2069,10 +2062,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307667/representation?bind=BgEEAuOCp%7COCp%7COCpeOCquOCpeOCpQAA"
+            "url": "https://www.jstor.org/stable/community.3307667"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_13_00_07": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -2088,14 +2089,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -2125,10 +2118,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307327/representation?bind=BgADAuOCpeOCp%7COCp%7COCpeOCquOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307327"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_13_07_16": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -2144,14 +2145,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -2181,10 +2174,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307458/representation?bind=BgUGAeOCpeOCpeOCp%7COCp%7COCpeOCqg%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307458"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_13_17_24": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -2200,14 +2201,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -2237,10 +2230,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307451/representation?bind=BgIEAeOCpeOCpwAA44Kn44Kl44Kq44Kl"
+            "url": "https://www.jstor.org/stable/community.3307451"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_14_00_07": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -2256,14 +2257,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -2293,10 +2286,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307322/representation?bind=BgUGAOOCpeOCpeOCp%7COCp%7COCpeOCqg%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307322"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_14_08_17": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -2312,14 +2313,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -2349,10 +2342,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307275/representation?bind=BgAEAOOCpeOCp%7COCp%7COCpeOCquOCpQAA"
+            "url": "https://www.jstor.org/stable/community.3307275"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_14_17_24": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -2368,14 +2369,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -2405,10 +2398,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307445/representation?bind=BgEGAOOCp%7COCp%7COCpeOCquOCpeOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307445"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_15_00_07": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -2424,14 +2425,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -2461,10 +2454,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307434/representation?bind=BgQBAOOCquOCpeOCpeOCp%7COCp%7COCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307434"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_15_08_16": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -2480,14 +2481,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -2517,10 +2510,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307360/representation?bind=BgUDAuOCpeOCpeOCp%7COCp%7COCpeOCqg%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307360"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_15_15_24": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -2536,14 +2537,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -2573,10 +2566,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307430/representation?bind=BgACA%7COCpeOCp%7COCp%7COCpeOCquOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307430"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_16_00_07": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -2592,14 +2593,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -2629,10 +2622,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307337/representation?bind=BgQFAeOCpQAAAADjgqrjgqXjgqXjgqfjgqc%3D"
+            "url": "https://www.jstor.org/stable/community.3307337"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_16_08_16": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -2648,14 +2649,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -2685,10 +2678,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307448/representation?bind=BgQCAOOCquOCpeOCpeOCp%7COCp%7COCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307448"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_16_16_24": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -2704,14 +2705,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -2741,10 +2734,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307467/representation?bind=BgUDAuOCpeOCpeOCp%7COCp%7COCpeOCqg%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307467"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_17_00_07": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -2760,14 +2761,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -2797,10 +2790,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307270/representation?bind=BgQCAOOCquOCpeOCpeOCp%7COCp%7COCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307270"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_17_07_16": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -2816,14 +2817,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -2853,10 +2846,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307471/representation?bind=BgUEAuOCpeOCpeOCp%7COCp%7COCpeOCqgAA"
+            "url": "https://www.jstor.org/stable/community.3307471"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_17_17_24": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -2872,14 +2873,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -2909,10 +2902,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307475/representation?bind=BgUDAOOCpeOCpeOCp%7COCp%7COCpeOCqg%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307475"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_18_01_09": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -2928,14 +2929,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -2965,10 +2958,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307352/representation?bind=BgYBAeOCp%7COCp%7COCpeOCquOCpeOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307352"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_18_10_16": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -2984,14 +2985,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -3021,10 +3014,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307299/representation?bind=BgAEAuOCpeOCp%7COCp%7COCpeOCquOCpQAA"
+            "url": "https://www.jstor.org/stable/community.3307299"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_18_17_24": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -3040,14 +3041,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -3077,10 +3070,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307315/representation?bind=BgAGAeOCpeOCp%7COCp%7COCpeOCquOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307315"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_G_19_01_01": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -3096,14 +3097,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -3133,10 +3126,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307480/representation?bind=BgAFAuOCpeOCp%7COCp%7COCpeOCquOCpQAAAAA%3D"
+            "url": "https://www.jstor.org/stable/community.3307480"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_01_00_04": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -3152,14 +3153,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -3189,10 +3182,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307294/representation?bind=BgYBAeOCp%7COCp%7COCpeOCquOCpeOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307294"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_01_05_13": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -3208,14 +3209,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -3245,10 +3238,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307669/representation?bind=BgAGAeOCpeOCp%7COCp%7COCpeOCquOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307669"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_01_12_20": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -3264,14 +3265,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -3301,10 +3294,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307289/representation?bind=BgUEAeOCpeOCqgAA44Kl44Kl44Kn44Kn"
+            "url": "https://www.jstor.org/stable/community.3307289"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_01_22_30": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -3320,14 +3321,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -3357,10 +3350,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307670/representation?bind=BgADAeOCpeOCquOCpeOCpeOCp%7COCpw%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307670"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_01_29_38": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -3376,14 +3377,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -3413,10 +3406,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307677/representation?bind=BgUEAuOCpeOCpeOCp%7COCp%7COCpeOCqgAA"
+            "url": "https://www.jstor.org/stable/community.3307677"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_02_00_04": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -3432,14 +3433,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -3469,10 +3462,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307297/representation?bind=BgIFAOOCp%7COCpeOCquOCpeOCpeOCpwAAAAA%3D"
+            "url": "https://www.jstor.org/stable/community.3307297"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_02_05_13": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -3488,14 +3489,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -3525,10 +3518,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307561/representation?bind=BgADAuOCpeOCp%7COCp%7COCpeOCquOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307561"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_02_12_14": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -3544,14 +3545,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -3581,10 +3574,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307553/representation?bind=BgEDAuOCp%7COCp%7COCpeOCquOCpeOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307553"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_02_12_19": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -3600,14 +3601,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -3637,10 +3630,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307680/representation?bind=BgYEAuOCpeOCp%7COCp%7COCpeOCquOCpQAA"
+            "url": "https://www.jstor.org/stable/community.3307680"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_02_24_31": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -3656,14 +3657,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -3693,10 +3686,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307688/representation?bind=BgYDAeOCpeOCquOCpeOCpeOCp%7COCpw%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307688"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_02_29_37": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -3712,14 +3713,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -3749,10 +3742,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307568/representation?bind=BgMFAOOCpeOCquOCpeOCpeOCp%7COCpwAAAAA%3D"
+            "url": "https://www.jstor.org/stable/community.3307568"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_02_35_46": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -3768,14 +3769,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -3805,10 +3798,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307694/representation?bind=BgMBBeOCp%7COCpeOCquOCpeOCpeOCpw%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307694"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_02_38_46": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -3824,14 +3825,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -3861,10 +3854,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307690/representation?bind=BgYFAeOCpQAAAADjgqXjgqfjgqfjgqXjgqo%3D"
+            "url": "https://www.jstor.org/stable/community.3307690"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_03_00_04": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -3880,14 +3881,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -3917,10 +3910,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307583/representation?bind=BgAFAOOCpeOCp%7COCp%7COCpeOCquOCpQAAAAA%3D"
+            "url": "https://www.jstor.org/stable/community.3307583"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_03_05_13": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -3936,14 +3937,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -3973,10 +3966,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307619/representation?bind=BgYGAeOCpeOCp%7COCp%7COCpeOCquOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307619"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_03_12_20": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -3992,14 +3993,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -4029,10 +4022,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307620/representation?bind=BgMCAuOCp%7COCp%7COCpeOCquOCpeOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307620"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_03_23_30": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -4048,14 +4049,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -4085,10 +4078,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307624/representation?bind=BgQFAeOCpQAAAADjgqrjgqXjgqXjgqfjgqc%3D"
+            "url": "https://www.jstor.org/stable/community.3307624"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_03_29_41": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -4104,14 +4105,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -4141,10 +4134,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307280/representation?bind=BgAGAeOCpeOCp%7COCp%7COCpeOCquOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307280"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_04_01_08": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -4160,14 +4161,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -4197,10 +4190,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307625/representation?bind=BgMDAOOCpeOCquOCpeOCpeOCp%7COCpw%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307625"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_04_08_17": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -4216,14 +4217,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -4253,10 +4246,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307635/representation?bind=BgQGAOOCquOCpeOCpeOCp%7COCp%7COCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307635"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_04_18_26": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -4272,14 +4273,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -4309,10 +4302,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307637/representation?bind=BgUEAeOCpeOCqgAA44Kl44Kl44Kn44Kn"
+            "url": "https://www.jstor.org/stable/community.3307637"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_04_27_36": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -4328,14 +4329,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -4365,10 +4358,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307641/representation?bind=BgMFAOOCpeOCquOCpeOCpeOCp%7COCpwAAAAA%3D"
+            "url": "https://www.jstor.org/stable/community.3307641"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_04_36_45": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -4384,14 +4385,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -4421,10 +4414,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307587/representation?bind=BgIEAeOCpeOCpwAA44Kn44Kl44Kq44Kl"
+            "url": "https://www.jstor.org/stable/community.3307587"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_04_46_54": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -4440,14 +4441,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -4477,10 +4470,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307594/representation?bind=BgIFAeOCpwAAAADjgqfjgqXjgqrjgqXjgqU%3D"
+            "url": "https://www.jstor.org/stable/community.3307594"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_05_01_09": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -4496,14 +4497,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -4533,10 +4526,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307599/representation?bind=BgADAeOCpeOCquOCpeOCpeOCp%7COCpw%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307599"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_05_10_18": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -4552,14 +4553,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -4589,10 +4582,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307603/representation?bind=BgYDAeOCpeOCquOCpeOCpeOCp%7COCpw%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307603"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_05_19_27": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -4608,14 +4609,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -4645,10 +4638,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307607/representation?bind=BgUEAOOCpeOCpeOCp%7COCp%7COCpeOCqgAA"
+            "url": "https://www.jstor.org/stable/community.3307607"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_05_27_36": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -4664,14 +4665,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -4701,10 +4694,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307608/representation?bind=BgUBA%7COCp%7COCpeOCquOCpeOCpeOCpw%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307608"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_05_37_46": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -4720,14 +4721,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -4757,10 +4750,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307577/representation?bind=BgUCA%7COCpeOCpeOCp%7COCp%7COCpeOCqg%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307577"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_05_46_54": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -4776,14 +4777,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -4813,10 +4806,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307647/representation?bind=BgYBAOOCpeOCp%7COCp%7COCpeOCquOCpQ%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307647"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_06_01_09": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -4832,14 +4833,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -4869,10 +4862,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307650/representation?bind=BgIDAOOCp%7COCpeOCquOCpeOCpeOCpw%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307650"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_06_09_17": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -4888,14 +4889,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -4925,10 +4918,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307654/representation?bind=BgQCAuOCp%7COCpeOCquOCpeOCpeOCpw%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307654"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_06_27_36": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -4944,14 +4945,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -4981,10 +4974,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307571/representation?bind=BgUCA%7COCpeOCpeOCp%7COCp%7COCpeOCqg%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307571"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_06_29_38": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -5000,14 +5001,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -5037,10 +5030,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307566/representation?bind=BgIGAOOCp%7COCpeOCquOCpeOCpeOCpw%3D%3D"
+            "url": "https://www.jstor.org/stable/community.3307566"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     },
     "MA_L_06_37_43": {
       "Description": "3D digitization of the squeeze using bidirectional flatbed scanning.",
@@ -5056,14 +5057,6 @@
       "Editors": [
         {
           "id": "AngelosBarmpoutis"
-        }
-      ],
-      "Sources": [
-        {
-          "id": "MVA2010"
-        },
-        {
-          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
         }
       ],
       "Inscription": {
@@ -5093,10 +5086,18 @@
         ],
         "Sources": [
           {
-            "url": "http://catalog.sharedshelf.artstor.org/assets/3307268/representation?bind=BgAFAuOCpeOCp%7COCp%7COCpeOCquOCpQAAAAA%3D"
+            "url": "https://www.jstor.org/stable/community.3307268"
           }
         ]
-      }
+      },
+      "Sources": [
+        {
+          "id": "MVA2010"
+        },
+        {
+          "url": "https://dcaps.library.cornell.edu/initiatives/asgrants/"
+        }
+      ]
     }
   },
   "Editors": {
