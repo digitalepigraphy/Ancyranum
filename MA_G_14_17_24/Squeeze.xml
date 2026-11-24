@@ -3,7 +3,7 @@
 	<record_link type="heightmap" value="Info.xml"></record_link>
 	<record_link type="neobject" value="Inscription.xml"></record_link>
 	<field id="27" value="Paper cast of the Res Gestae Divi Augusti inscription from Monumentum Ancyranum.">
-		<source url="http://catalog.sharedshelf.artstor.org/assets/3307445/representation?bind=BgEGAOOCp%7COCp%7COCpeOCquOCpeOCpQ%3D%3D"></source>
+		<source url="https://www.jstor.org/stable/community.3307445"></source>
 	</field>
 	<field id="7" value="Cornell University"></field>
 	<field id="44" value="Eric Rebillard; Ben Anderson"></field>
